@@ -1,0 +1,86 @@
+[
+    {
+        "lucro": "3",
+        "marca": "cristal",
+        "nome": "chopVinho",
+        "quant": "3",
+        "valor": "9.36"
+    },
+    {
+        "lucro": "1",
+        "marca": "csristal",
+        "nome": "agua",
+        "quant": "1",
+        "valor": "2.60"
+    },
+    {
+        "lucro": "1",
+        "marca": "cristal",
+        "nome": "chop",
+        "quant": "1",
+        "valor": "1.56"
+    },
+    {
+        "lucro": "1",
+        "marca": "cristal",
+        "nome": "chop",
+        "quant": "1",
+        "valor": "1.56"
+    },
+    {
+        "lucro": "1",
+        "marca": "csristal",
+        "nome": "agao",
+        "quant": "1",
+        "valor": "2.60"
+    },
+    {
+        "lucro": "3",
+        "marca": "cristal",
+        "nome": "chopVinho",
+        "quant": "3",
+        "valor": "9.36"
+    },
+    {
+        "lucro": "3",
+        "marca": "cristal",
+        "nome": "chopVinho",
+        "quant": "3",
+        "valor": "9.36"
+    },
+    {
+        "lucro": "1",
+        "marca": "cristal",
+        "nome": "chope",
+        "quant": "1",
+        "valor": "1.56"
+    },
+    {
+        "lucro": "1",
+        "marca": "csristal",
+        "nome": "chor",
+        "quant": "1",
+        "valor": "2.60"
+    },
+    {
+        "lucro": "3",
+        "marca": "csristal",
+        "nome": "dsfa",
+        "quant": "3",
+        "valor": "15.60"
+    },
+    {
+        "lucro": "1",
+        "marca": "csristal",
+        "nome": "dsa",
+        "quant": "1",
+        "valor": "2.60"
+    },
+    {
+        "lucro": "1",
+        "marca": "csristal",
+        "nome": "agua",
+        "quant": "1",
+        "valor": "2.60"
+    }
+]

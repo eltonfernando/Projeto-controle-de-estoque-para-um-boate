@@ -1,0 +1,20 @@
+[
+    {
+        "marca": "cristal",
+        "nome": "cerveja",
+        "preco": "1.2",
+        "quantidade": "9"
+    },
+    {
+        "marca": "cristal",
+        "nome": "vinho",
+        "preco": "4.5",
+        "quantidade": "10"
+    },
+    {
+        "marca": "csristal",
+        "nome": "agua",
+        "preco": "2.00",
+        "quantidade": "6"
+    }
+]

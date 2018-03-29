@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "gerente",
+        "senha": "12345"
+            
+    },
+	{
+        "nome": "cantor",
+        "senha": "12345"
+            
+    },
+	{
+        "nome": "dançarina",
+        "senha": "12345"
+            
+    },
+	{
+        "nome": "barmam",
+        "senha": "12345"
+            
+    }
+    
+]

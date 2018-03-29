@@ -1,0 +1,86 @@
+[
+    {
+        "lucro": "0.6",
+        "marca": "csristal",
+        "nome": "agao",
+        "preco": "2.60",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "chop",
+        "preco": "1.56",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "chop",
+        "preco": "3.12",
+        "quant": "2"
+    },
+    {
+        "lucro": "0.6",
+        "marca": "csristal",
+        "nome": "rt",
+        "preco": "2.60",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "nodas",
+        "preco": "1.56",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "nodasd",
+        "preco": "",
+        "quant": "1"
+    },
+    {
+        "lucro": "1.35",
+        "marca": "cristal",
+        "nome": "nova",
+        "preco": "5.85",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.6",
+        "marca": "csristal",
+        "nome": "novad",
+        "preco": "2.60",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "cer",
+        "preco": "1.56",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "nocd",
+        "preco": "1.56",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "vsd",
+        "preco": "1.56",
+        "quant": "1"
+    },
+    {
+        "lucro": "0.36",
+        "marca": "cristal",
+        "nome": "dsfa",
+        "preco": "1.56",
+        "quant": "1"
+    }
+]
