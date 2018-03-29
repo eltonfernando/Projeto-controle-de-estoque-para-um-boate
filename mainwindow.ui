@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1089</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Gerenciamento</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="mures.qrc">
+    <normaloff>:/imagem/imagem/gerente.png</normaloff>:/imagem/imagem/gerente.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_pessoas">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Swis721 Hv BT</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dados pessoais</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView_estoque">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>40</y>
+      <width>391</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>621</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QTableView" name="tableView_dados">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="tabKeyNavigation">
+        <bool>false</bool>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::CustomDashLine</enum>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer_9">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_todosCliente">
+         <property name="text">
+          <string>Todos Clientes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_presente">
+         <property name="text">
+          <string>Clientes presente</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_vip">
+         <property name="text">
+          <string>Vip</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_funcionarios">
+         <property name="text">
+          <string>Funcionarios</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>0</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Estoque</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>310</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Economia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_valor">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Valor em caixa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_lucro">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lucro</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>320</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pagar funcionarios</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>300</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Contas</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_atualizar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Atualizar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_pagarID">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>360</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_pagarNome">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>360</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_pagarValor">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>360</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>10000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_pagarfun">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>390</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pagar</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>330</y>
+      <width>295</width>
+      <height>225</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableView" name="tableView_contas">
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_pagarContaNome"/>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_pagarContaValor">
+         <property name="maximum">
+          <double>10000.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_pagarConta">
+         <property name="text">
+          <string>Pagar conta</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1089</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuADD">
+    <property name="title">
+     <string>ADD</string>
+    </property>
+    <addaction name="actionCliente"/>
+    <addaction name="actiondados_de_pessoas"/>
+    <addaction name="actionAloca_o"/>
+    <addaction name="actionPortaria"/>
+    <addaction name="actionDan_arina"/>
+    <addaction name="actionBarman"/>
+    <addaction name="actionCantor"/>
+   </widget>
+   <addaction name="menuADD"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actiondados_de_pessoas"/>
+   <addaction name="actionAloca_o"/>
+   <addaction name="actionPortaria"/>
+   <addaction name="actionBarman"/>
+   <addaction name="actionCantor"/>
+   <addaction name="actionDan_arina"/>
+   <addaction name="actionCliente"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCliente">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/cliente.png</normaloff>:/imagem/imagem/cliente.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cliente</string>
+   </property>
+  </action>
+  <action name="actiondados_de_pessoas">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/compras.png</normaloff>:/imagem/imagem/compras.png</iconset>
+   </property>
+   <property name="text">
+    <string>Gerente</string>
+   </property>
+  </action>
+  <action name="actionAloca_o">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/aloca.jpg</normaloff>:/imagem/imagem/aloca.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Alocação</string>
+   </property>
+  </action>
+  <action name="actionPortaria">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/portaria.png</normaloff>:/imagem/imagem/portaria.png</iconset>
+   </property>
+   <property name="text">
+    <string>Portaria</string>
+   </property>
+  </action>
+  <action name="actionDan_arina">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/dancarina.jpg</normaloff>:/imagem/imagem/dancarina.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Dançarina</string>
+   </property>
+  </action>
+  <action name="actionBarman">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/barmam.png</normaloff>:/imagem/imagem/barmam.png</iconset>
+   </property>
+   <property name="text">
+    <string>Barman</string>
+   </property>
+  </action>
+  <action name="actionCantor">
+   <property name="icon">
+    <iconset resource="mures.qrc">
+     <normaloff>:/imagem/imagem/cantor.jpg</normaloff>:/imagem/imagem/cantor.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Cantor</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

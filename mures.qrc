@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/imagem">
+        <file>imagem/dancarina.jpg</file>
+        <file>imagem/gerente.png</file>
+        <file>imagem/aloca.jpg</file>
+        <file>imagem/barmam.png</file>
+        <file>imagem/cantor.jpg</file>
+        <file>imagem/portaria.png</file>
+        <file>imagem/cliente.png</file>
+        <file>imagem/compras.png</file>
+        <file>imagem/login.png</file>
+    </qresource>
+</RCC>
