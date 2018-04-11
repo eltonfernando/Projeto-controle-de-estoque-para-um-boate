@@ -1,4 +1,5 @@
-# Projeto-controle-de-estoque-para-um-boate
+
+# Apresentação do projeto
   Por meio deste projeto procura-se elaborar um gerenciador de uma boate , que efetuara os serviços de bar e dança e demais, contudo a mesma a apresenta a opção de aluguel do espaço fisico para festas tematicas.
   A boate funcionara normalmente também sem o estabelecimento estar alugado , promovendo eventos e shows necessitando asssim de funcionarios do tipo barman, faxineira, dançarina cantor ou DJ e um gerente para administrar o negocio, os clientes possuiram um código de acesso, caso o cliente for frequentador assíduo pode optar por ser tornar vip. O cliente vip tem vantagens relacionadas a descontos, promoções e vales na boate. Ressalta-se também que o cliente que for estudante e maior de 18 anos terá desconto com carteirinha de estudante.
     A implmentação deste programa vem para facilitar e ajudar a gerenciar os fluxo de vendas, serviços, estoque e alugueis prestados pela boate, por intermedio de classes e suas respectivas propriedades em linguagem C++.
